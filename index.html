@@ -15,6 +15,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="Mažam autoservisui Lietuvoje: remonto užsakymai, klientų registracija į kalendorių, automobilio istorija ir sąskaitos faktūros — naršyklėje, be diegimo.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -73,38 +77,68 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">Serviso užsakymai</a></div>
-  <nav class="top"><a href="#ka" data-ev="click_nav_ka">Ką gausite</a><a href="price.html" data-ev="click_nav_kaina">Kaina</a><a href="#pavyzdys" data-ev="click_nav_pavyzdys">Pavyzdys</a><a href="#start" data-ev="click_nav_start">Pradėti</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">Serviso užsakymai</a>
+  <nav><a href="#ka" data-ev="click_nav_ka">Ką gausite</a><a href="price.html" data-ev="click_nav_kaina">Kaina</a><a href="#pavyzdys" data-ev="click_nav_pavyzdys">Pavyzdys</a><a href="#start" data-ev="click_nav_start">Pradėti</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Užsakymas, registracija ir sąskaita — be sąsiuvinio ir be atskirų lentelių</h1>
-    <p class="sub">Mažam autoservisui, kuris remontuoja klientų automobilius: kiekvienas darbas tampa užsakymu su dalimis ir darbo valandomis, klientai registruojami į kalendorių, o sąskaita faktūra išrašoma iš to paties užsakymo.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">Man to reikia</a>
-    <p class="cta-note">Ankstyvoji prieiga · Šiame puslapyje mokėjimai kol kas nepriimami</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> Mažam autoservisui, kuris remontuoja</p>
+      <h1 class="rise" style="--i:1" data-len="long">Užsakymas, registracija ir sąskaita&nbsp;<span class="soft">— be sąsiuvinio ir be atskirų lentelių</span></h1>
+      <p class="rise" style="--i:2">Mažam autoservisui, kuris remontuoja klientų automobilius: kiekvienas darbas tampa užsakymu su dalimis ir darbo valandomis, klientai registruojami į kalendorių, o sąskaita faktūra išrašoma iš to paties užsakymo.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">Man to reikia</a>
+      <p class="meta rise" style="--i:4">Ankstyvoji prieiga · Šiame puslapyje mokėjimai kol kas nepriimami</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="130" y="168" font-size="40" font-weight="600" fill="#0a1524">Užsakymas</text><line x1="120" y1="210" x2="1080" y2="210" stroke="#dde2ea" stroke-width="3" fill="none" /><rect x="130" y="250" width="44" height="44" rx="8" fill="#dfe8f7" /><text x="200" y="282" font-size="32" fill="#0a1524">darbas</text><rect x="130" y="350" width="44" height="44" rx="8" fill="#dfe8f7" /><text x="200" y="382" font-size="32" fill="#0a1524">dalimis</text><rect x="130" y="450" width="44" height="44" rx="8" fill="#dfe8f7" /><text x="200" y="482" font-size="32" fill="#0a1524">sąskaita</text><rect x="130" y="550" width="44" height="44" rx="8" fill="#dfe8f7" /><text x="200" y="582" font-size="32" fill="#0a1524">kalendorių</text><rect x="700" y="250" width="360" height="400" rx="20" fill="#dfe8f7" /><text x="730" y="314" font-size="34" font-weight="600" fill="#0a1524">faktūra</text><rect x="740" y="480" width="48" height="130" rx="8" fill="#ffffff" stroke="#dde2ea" stroke-width="2" /><rect x="820" y="400" width="48" height="210" rx="8" fill="#12397a" stroke="#dde2ea" stroke-width="2" /><rect x="900" y="520" width="48" height="90" rx="8" fill="#ffffff" stroke="#dde2ea" stroke-width="2" /><rect x="980" y="440" width="48" height="170" rx="8" fill="#ffffff" stroke="#dde2ea" stroke-width="2" /></svg></figure>
+    <dl class="facts">
+      <div><dt>Autoservisui</dt><dd>Kuris remontuoja klientų automobilius</dd></div>
+      <div><dt>Užsakymas</dt><dd>Kiekvienas darbas tampa užsakymu</dd></div>
+      <div><dt>Kalendorius</dt><dd>Klientai registruojami į kalendorių</dd></div>
+      <div><dt>Prieiga</dt><dd>Ankstyvoji prieiga</dd></div>
+    </dl>
+  </section>
 
   <section id="ka" data-view="features_view">
-    <h2>Ką gausite</h2>
-    <div class="grid">
-      <div class="card"><b>Remonto užsakymai</b><span>Darbai, dalys ir valandos viename užsakyme, su būsena: priimta, dirbama, baigta.</span><br><a class="btn" href="price.html" data-ev="feature_uzsakymai">Man to reikia</a></div>
-      <div class="card"><b>Registracija</b><span>Kalendorius meistrams ir keltuvams, kad klientas neateitų tuo pačiu metu.</span><br><a class="btn" href="price.html" data-ev="feature_kalendorius">Man to reikia</a></div>
-      <div class="card"><b>Automobilio istorija</b><span>Visi ankstesni darbai pagal valstybinį numerį ar VIN.</span><br><a class="btn" href="price.html" data-ev="feature_istorija">Man to reikia</a></div>
-      <div class="card"><b>Sąskaitos faktūros</b><span>Sąskaita iš užsakymo vienu paspaudimu, paruošta spausdinti ar siųsti.</span><br><a class="btn" href="price.html" data-ev="feature_saskaitos">Man to reikia</a></div>
+    <div class="stack"><h2>Ką gausite</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="148" font-size="36" font-weight="600" fill="#0a1524">užsakymai</text><rect x="130" y="200" width="48" height="48" rx="8" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><polyline points="142,226 152,236 166,216" fill="none" stroke="#12397a" stroke-width="4" /><rect x="200" y="213" width="340" height="22" rx="8" fill="#dde2ea" /><rect x="130" y="290" width="48" height="48" rx="8" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><polyline points="142,316 152,326 166,306" fill="none" stroke="#12397a" stroke-width="4" /><rect x="200" y="303" width="290" height="22" rx="8" fill="#dde2ea" /><rect x="130" y="380" width="48" height="48" rx="8" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="200" y="393" width="240" height="22" rx="8" fill="#dde2ea" /><text x="130" y="490" font-size="30" fill="#566174">būsena</text></svg></div>
+        <h3>Remonto užsakymai</h3><p>Darbai, dalys ir valandos viename užsakyme, su būsena: priimta, dirbama, baigta.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_uzsakymai">Man to reikia</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="140" font-size="36" font-weight="600" fill="#0a1524">Registracija</text><rect x="140" y="190" width="100" height="64" rx="10" fill="#dfe8f7" /><rect x="270" y="190" width="100" height="64" rx="10" fill="#dfe8f7" /><rect x="400" y="190" width="100" height="64" rx="10" fill="#dfe8f7" /><rect x="530" y="190" width="100" height="64" rx="10" fill="#dfe8f7" /><rect x="140" y="280" width="100" height="64" rx="10" fill="#dfe8f7" /><rect x="270" y="280" width="100" height="64" rx="10" fill="#dfe8f7" /><rect x="400" y="280" width="100" height="64" rx="10" fill="#12397a" /><rect x="530" y="280" width="100" height="64" rx="10" fill="#dfe8f7" /><rect x="140" y="370" width="100" height="64" rx="10" fill="#dfe8f7" /><rect x="270" y="370" width="100" height="64" rx="10" fill="#dfe8f7" /><rect x="400" y="370" width="100" height="64" rx="10" fill="#dfe8f7" /><rect x="530" y="370" width="100" height="64" rx="10" fill="#dfe8f7" /><text x="120" y="490" font-size="30" fill="#566174">Kalendorius</text></svg></div>
+        <h3>Registracija</h3><p>Kalendorius meistrams ir keltuvams, kad klientas neateitų tuo pačiu metu.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_kalendorius">Man to reikia</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="90" y="60" width="460" height="480" rx="18" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="130" font-size="36" font-weight="600" fill="#0a1524">istorija</text><line x1="120" y1="160" x2="510" y2="160" stroke="#dde2ea" stroke-width="3" fill="none" /><rect x="120" y="190" width="300" height="22" rx="8" fill="#dde2ea" /><rect x="120" y="246" width="240" height="22" rx="8" fill="#dde2ea" /><rect x="120" y="302" width="340" height="22" rx="8" fill="#dde2ea" /><rect x="120" y="358" width="180" height="22" rx="8" fill="#dde2ea" /><circle cx="640" cy="300" r="70" fill="#dfe8f7" /><polyline points="606,300 632,328 678,270" fill="none" stroke="#12397a" stroke-width="8" /><text x="120" y="480" font-size="32" fill="#566174">numerį</text></svg></div>
+        <h3>Automobilio istorija</h3><p>Visi ankstesni darbai pagal valstybinį numerį ar VIN.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_istorija">Man to reikia</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="60" y="80" width="280" height="440" rx="18" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="460" y="80" width="280" height="440" rx="18" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="84" y="140" font-size="30" font-weight="600" fill="#0a1524">Sąskaita</text><text x="484" y="140" font-size="30" font-weight="600" fill="#0a1524">užsakymo</text><rect x="90" y="190" width="180" height="20" rx="8" fill="#b9c3d2" /><rect x="90" y="250" width="140" height="20" rx="8" fill="#b9c3d2" /><rect x="90" y="310" width="200" height="20" rx="8" fill="#b9c3d2" /><rect x="490" y="190" width="160" height="20" rx="8" fill="#b9c3d2" /><rect x="490" y="250" width="210" height="20" rx="8" fill="#b9c3d2" /><rect x="490" y="310" width="120" height="20" rx="8" fill="#b9c3d2" /><polygon points="352,292 430,292 430,280 456,308 430,336 430,324 352,324" fill="#12397a" /><text x="484" y="470" font-size="30" fill="#566174">faktūra</text></svg></div>
+        <h3>Sąskaitos faktūros</h3><p>Sąskaita iš užsakymo vienu paspaudimu, paruošta spausdinti ar siųsti.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_saskaitos">Man to reikia</a>
+      </article>
     </div>
   </section>
 
-  <section id="pavyzdys" data-view="example_view">
-    <h2>Pavyzdys (išgalvoti duomenys)</h2>
-    <p class="fine">Servisas su trimis meistrais ir dviem keltuvais. Pirmadienio rytą kalendoriuje — aštuoni registruoti automobiliai. Meistras įrašo pakeistas dalis į užsakymą, o vakare administratorė išrašo sąskaitas iš baigtų užsakymų ir mato, kurie automobiliai dar laukia dalių.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Pasirinkite planą</a>
+  <section id="pavyzdys" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Pavyzdys</h2>
+      <p>Servisas su trimis meistrais ir dviem keltuvais. Pirmadienio rytą kalendoriuje — aštuoni registruoti automobiliai. Meistras įrašo pakeistas dalis į užsakymą, o vakare administratorė išrašo sąskaitas iš baigtų užsakymų ir mato, kurie automobiliai dar laukia dalių.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Pasirinkite planą</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="200" y1="150" x2="1000" y2="150" stroke="#dde2ea" stroke-width="6" fill="none" /><circle cx="240" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="240" y="230" font-size="32" font-weight="600" fill="#0a1524" text-anchor="middle">kalendoriuje</text><circle cx="600" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="600" y="230" font-size="32" font-weight="600" fill="#0a1524" text-anchor="middle">užsakymą</text><circle cx="960" cy="150" r="22" fill="#12397a" stroke="#12397a" stroke-width="6" /><text x="960" y="230" font-size="32" font-weight="600" fill="#0a1524" text-anchor="middle">sąskaitas</text><rect x="120" y="300" width="960" height="420" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="170" y="380" font-size="36" font-weight="600" fill="#0a1524">automobiliai</text><rect x="170" y="440" width="64" height="64" rx="12" fill="#dfe8f7" /><rect x="260" y="440" width="64" height="64" rx="12" fill="#dfe8f7" /><rect x="350" y="440" width="64" height="64" rx="12" fill="#12397a" /><rect x="440" y="440" width="64" height="64" rx="12" fill="#dfe8f7" /><rect x="530" y="440" width="64" height="64" rx="12" fill="#12397a" /><rect x="620" y="440" width="64" height="64" rx="12" fill="#dfe8f7" /><text x="170" y="640" font-size="32" fill="#566174">dalių</text></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>Kaip tai veikia</h2>
-    <p>Lietuvoje veikia keli tūkstančiai įmonių, kurios remontuoja ir prižiūri automobilius. Dauguma jų nedidelės: savininkas, keli meistrai ir administratorius, kuris atsiliepia į skambučius. Tokiame servise darbai dažnai užrašomi sąsiuvinyje arba lentelėje, registracija vyksta telefonu, o sąskaitos faktūros išrašomos atskiroje programoje, perrašant tas pačias dalis ir valandas dar kartą.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>Kaip tai veikia</h2></div>
+    <div class="stack">
+      <p>Lietuvoje veikia keli tūkstančiai įmonių, kurios remontuoja ir prižiūri automobilius. Dauguma jų nedidelės: savininkas, keli meistrai ir administratorius, kuris atsiliepia į skambučius. Tokiame servise darbai dažnai užrašomi sąsiuvinyje arba lentelėje, registracija vyksta telefonu, o sąskaitos faktūros išrašomos atskiroje programoje, perrašant tas pačias dalis ir valandas dar kartą.</p>
     <p>Dėl to prarandama daug laiko ir pinigų. Pamirštama įrašyti smulkią dalį ar papildomą darbo valandą, du klientai užregistruojami tuo pačiu laiku, o kai klientas paklausia, kas buvo daryta jo automobiliui prieš metus, tenka vartyti senus užrašus. Kuo daugiau automobilių per dieną, tuo dažniau tokie dalykai kartojasi.</p>
     <p>Ši programa sujungia tris dalykus. Kiekvienas atvažiavęs automobilis tampa užsakymu: jame įrašomi darbai, panaudotos dalys, meistro valandos ir būsena. Registracija vyksta kalendoriuje, kuriame matyti meistrai ir keltuvai, todėl administratorius iš karto mato laisvą laiką. Iš baigto užsakymo išrašoma sąskaita faktūra be jokio perrašymo.</p>
     <p>Automobilio istorija kaupiasi savaime. Pagal valstybinį numerį ar VIN matyti visi ankstesni užsakymai: kada keista alyva, kokios stabdžių kaladėlės dėtos, kada atlikta techninė apžiūra. Tai padeda meistrui greičiau rasti gedimą, o klientui galima priminti apie artėjančią priežiūrą, kai ateina laikas.</p>
@@ -113,31 +147,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>Dienos pabaigoje savininkas mato paprastą suvestinę: kiek užsakymų priimta, kiek baigta, kiek išrašyta sąskaitų ir kokia jų suma, kurie meistrai buvo užimti daugiausia ir kurie keltuvai stovėjo tušti. Mėnesio pabaigoje ta pati suvestinė parodo, kokie darbai servise daromi dažniausiai ir kurie klientai grįžta. Šie skaičiai padeda planuoti meistrų darbo laiką ir dalių užsakymus, o ne spėlioti.</p>
     <p>Pradėti galima per vieną vakarą: įvedate meistrus ir keltuvus, susikuriate dažniausių darbų sąrašą su kainomis ir įkeliate klientų sąrašą, jei jį jau turite. Kitą rytą pirmieji automobiliai registruojami jau kalendoriuje, o pirmosios sąskaitos išrašomos iš užsakymų.</p>
     <p>Programa skirta mažiems ir vidutiniams servisams, kurie remontuoja klientų automobilius: bendrajam remontui, padangų keitimui, elektrikai ir kėbulo darbams. Ji ruošiama dabar: pirmiausia tikriname, ar servisams jos reikia, ir tik tada ją kuriame.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Klausimai ir atsakymai</h2>
-    <h3>Ar reikia ką nors diegti?</h3>
-    <p>Ne. Programa veikia naršyklėje kompiuteryje, planšetėje ir telefone.</p>
-    <h3>Ar galima išrašyti sąskaitą faktūrą?</h3>
-    <p>Taip, iš baigto užsakymo, su darbais ir dalimis.</p>
-    <h3>Ar galiu perkelti savo klientų sąrašą?</h3>
-    <p>Taip, iš lentelės su vardais, telefonais ir automobilių numeriais.</p>
-    <h3>Kiek meistrų galima įvesti?</h3>
-    <p>Tiek, kiek dirba servise; planas priklauso nuo darbuotojų skaičiaus.</p>
-    <h3>Ar jau galiu naudotis?</h3>
-    <p>Dar ne. Programa ruošiama, ir mes tikriname, ar servisams jos reikia.</p>
+    <div class="stack"><h2>Klausimai ir atsakymai</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Ar reikia ką nors diegti?</h3><p>Ne. Programa veikia naršyklėje kompiuteryje, planšetėje ir telefone.</p></div>
+      <div class="split flip"><h3>Ar galima išrašyti sąskaitą faktūrą?</h3><p>Taip, iš baigto užsakymo, su darbais ir dalimis.</p></div>
+      <div class="split flip"><h3>Ar galiu perkelti savo klientų sąrašą?</h3><p>Taip, iš lentelės su vardais, telefonais ir automobilių numeriais.</p></div>
+      <div class="split flip"><h3>Kiek meistrų galima įvesti?</h3><p>Tiek, kiek dirba servise; planas priklauso nuo darbuotojų skaičiaus.</p></div>
+      <div class="split flip"><h3>Ar jau galiu naudotis?</h3><p>Dar ne. Programa ruošiama, ir mes tikriname, ar servisams jos reikia.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Įveskite savo servisą</h2>
-    <p><label>Kiek meistrų dirba servise<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— pasirinkite —</option><option>1</option><option>2–4</option><option>5–10</option><option>Daugiau nei 10</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Pradėti</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Įveskite savo servisą</h2>
+    </div>
+    <div class="tile stack">
+      <label>Kiek meistrų dirba servise<select data-ev-focus="form_start"><option value="">— pasirinkite —</option><option>1</option><option>2–4</option><option>5–10</option><option>Daugiau nei 10</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Pradėti</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>Serviso užsakymai</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Privatumo politika</a></p>
-  <p class="muted">Programa serviso užsakymams ir sąskaitoms tvarkyti. Nesusijusi su jokia valstybės institucija.</p>
+  <p>Programa serviso užsakymams ir sąskaitoms tvarkyti. Nesusijusi su jokia valstybės institucija.</p>
 </div></footer>
 
 </body>
